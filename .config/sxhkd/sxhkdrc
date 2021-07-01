@@ -1,0 +1,6 @@
+# Screenshot
+Print
+        maim ~/Pictures/Screenshots/$(date +%s).png
+# Select Screenshot
+super + Print
+        maim -s ~/Pictures/Screenshots/$(date +%s).png

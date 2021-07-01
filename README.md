@@ -2,4 +2,5 @@
 
  RSS Reader: Newsboat\
  Text Editor: Neovim\
- Terminal Multiplexer: Tmux\
+ Terminal Multiplexer: tmux\
+ Hotkey Daemon: sxhkd
