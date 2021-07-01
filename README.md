@@ -1,4 +1,5 @@
 # dotfiles
 
- RSS Reader: Newsboat
- Text Editor: Neovim
+ RSS Reader: Newsboat\
+ Text Editor: Neovim\
+ Terminal Multiplexer: Tmux\
