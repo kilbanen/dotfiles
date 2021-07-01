@@ -1,0 +1,15 @@
+# Set browser
+browser $BROWSER
+
+# Reload options
+auto-reload yes
+
+# Key bindings
+unbind-key j
+unbind-key k
+unbind-key h
+unbind-key l
+bind-key j down
+bind-key k up
+bind-key h quit
+bind-key l open
