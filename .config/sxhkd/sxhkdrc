@@ -1,6 +1,18 @@
 # Screenshot
 Print
-        maim ~/Pictures/Screenshots/$(date +%s).png
+  maim ~/Pictures/Screenshots/$(date +%s).png
 # Select Screenshot
 super + Print
-        maim -s ~/Pictures/Screenshots/$(date +%s).png
+  maim -s ~/Pictures/Screenshots/$(date +%s).png
+
+# Mute/Unmute
+super + F1
+  pactl set-sink-mute 0 toggle
+
+# Decrease Volume
+super + F2
+  pactl set-sink-volume 0 -10%
+
+# Increase Volume
+super + F3
+  pactl set-sink-volume 0 +10%
