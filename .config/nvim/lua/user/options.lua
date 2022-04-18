@@ -14,5 +14,6 @@ vim.opt.smartindent = true
 vim.opt.smarttab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
+vim.opt.termguicolors = true
 vim.opt.undofile = true
 vim.opt.wrap = false
