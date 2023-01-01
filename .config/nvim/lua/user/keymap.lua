@@ -31,3 +31,7 @@ keymap("v", "<A-k>", ":m '<-2<CR>gv=gv")
 
 -- Don't yank replaced text after pasting in visual mode
 keymap("v", "p", '"_dP')
+
+-- Telescope
+keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>")
+keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>")
