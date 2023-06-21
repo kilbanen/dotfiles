@@ -1,9 +1,9 @@
 # Screenshot
 Print
-  maim ~/Pictures/Screenshots/$(date +%s).png
+  maim ~/pictures/screenshots/$(date +%s).png
 # Select Screenshot
 super + Print
-  maim -s ~/Pictures/Screenshots/$(date +%s).png
+  maim -s ~/pictures/screenshots/$(date +%s).png
 
 # Mute/Unmute
 super + F1
